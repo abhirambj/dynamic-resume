@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Box, useColorScheme } from "@mui/joy";
 import { animated, easings, useSpring, useSpringRef } from "@react-spring/web";
 import balloonMin from "@/assets/balloon.min.webp";

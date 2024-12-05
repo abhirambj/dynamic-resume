@@ -1,3 +1,5 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
+/* eslint-disable react/react-in-jsx-scope */
 import { useEffect, useMemo, useState } from "react";
 import {
 	Avatar,

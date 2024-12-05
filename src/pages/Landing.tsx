@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 import React from "react";
 import { Stack, Typography, TypographyProps } from "@mui/joy";
 import { SxProps, TextColor } from "@mui/joy/styles/types";

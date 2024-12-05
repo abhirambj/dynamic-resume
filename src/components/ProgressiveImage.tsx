@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 import { Box } from "@mui/joy";
 import { animated } from "@react-spring/web";
 import React, { ComponentProps, useEffect, useMemo, useState } from "react";

@@ -163,6 +163,7 @@ export function Experience({ truncate = false }: { truncate?: boolean }) {
 										years > 0
 											? `${years} year${
 													years !== 1 ? "s" : ""
+													// eslint-disable-next-line no-mixed-spaces-and-tabs
 											  } `
 											: ""
 									}${months} month${months !== 1 ? "s" : ""}`;

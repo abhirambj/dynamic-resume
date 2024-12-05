@@ -1,6 +1,8 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 import { Avatar, Stack, Typography, useColorScheme } from "@mui/joy";
 import { RiOpenSourceLine } from "react-icons/ri";
 import { Parallax } from "react-scroll-parallax";
+import React from "react";
 import { Mobile, useMobileMode } from "@/components/Responsive";
 
 export default function OpenSource() {

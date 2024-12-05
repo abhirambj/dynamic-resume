@@ -1,5 +1,6 @@
 import { Stack, Typography } from "@mui/joy";
 import details from "@/assets/Details";
+import React from "react";
 
 export default function Credits() {
 	return (

@@ -8,7 +8,8 @@ import {
 	Typography,
 	Avatar,
 } from "@mui/joy";
-import { IoIosClose, IoIosSearch, IoIosShuffle } from "react-icons/io";
+import React from "react";
+import { IoIosClose, IoIosSearch } from "react-icons/io";
 
 const projects = [
 	{

@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Avatar, Stack, Typography, Button, useColorScheme } from "@mui/joy";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiMail, FiPhone } from "react-icons/fi";

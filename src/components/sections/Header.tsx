@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 import { useMemo } from "react";
 
 import { Avatar, Button, Stack, Typography, useColorScheme } from "@mui/joy";
@@ -8,6 +9,7 @@ import greetingFactory from "@/utils/Greeting";
 import { ATypography } from "@/pages/Landing";
 import details from "@/assets/Details";
 import { useMobileMode } from "@/components/Responsive";
+import React from "react";
 
 export const visitors = [
 	"collaborator",

@@ -1,5 +1,7 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 import { Box } from "@mui/joy";
 import { useMobileMode } from "../../components/Responsive";
+import React from "react";
 
 export default function Divider() {
 	const mobile = useMobileMode();

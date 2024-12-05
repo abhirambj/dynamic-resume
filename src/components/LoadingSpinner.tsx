@@ -1,4 +1,5 @@
 import { CircularProgress, Stack, Typography } from "@mui/joy";
+import React from "react";
 
 export default function LoadingSpinner({
 	message = "Loading...",

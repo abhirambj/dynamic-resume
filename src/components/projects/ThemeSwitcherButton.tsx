@@ -1,5 +1,6 @@
 import { IconButton, Stack, useColorScheme } from "@mui/joy";
 import { GoMoon, GoSun } from "react-icons/go";
+import React from "react";
 
 export function ThemeSwitcherButton() {
 	const { colorScheme, setMode } = useColorScheme();

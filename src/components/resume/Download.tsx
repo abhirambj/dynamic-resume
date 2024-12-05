@@ -1,6 +1,7 @@
 import { Button, Card, IconButton, Stack, Tooltip, Typography } from "@mui/joy";
 import { useMobileMode } from "@/components/Responsive";
 import { FiPrinter } from "react-icons/fi";
+import React from "react";
 
 /**
  * A component that allows the user to print the resume.

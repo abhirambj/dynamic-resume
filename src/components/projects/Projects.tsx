@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-spaces-and-tabs */
 import { Button, Stack, Typography } from "@mui/joy";
 
 import { useMobileMode } from "@/components/Responsive";
@@ -5,6 +6,7 @@ import { IoIosReturnLeft } from "react-icons/io";
 import { Link } from "react-router-dom";
 import Directory from "@/components/projects/Directory";
 import { ThemeSwitcherButton } from "./ThemeSwitcherButton";
+import React from "react";
 
 export default function Projects() {
 	const mobile = useMobileMode();
