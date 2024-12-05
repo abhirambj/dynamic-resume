@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "jsx": "react"
+  },
+	"include": ["src", "scripts", "vite-env.d.ts"]
+}

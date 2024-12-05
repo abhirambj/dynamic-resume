@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"jsx": "react-jsx", // For React 17+ with the new JSX transform
+		"target": "ES2020", // Or the version of JavaScript you're targeting
+		"module": "ESNext", // Or the module system you're using
+		"strict": true,
+		"baseUrl": ".", // For alias resolution
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true, // If mixing JS and TS
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"skipLibCheck": true
+	},
+	"include": ["src", "src/@types", "vite-env.d.ts"], // Include your source directory
+	"exclude": ["node_modules"] // Exclude unnecessary files
+}
